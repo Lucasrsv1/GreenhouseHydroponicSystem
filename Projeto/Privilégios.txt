@@ -1,0 +1,66 @@
+Operário:
+* Início {
+- Perfil
+- Conectar à Servidor Local
+- Ajuda
+}
+* Controles {
+- Painel de Controles
+- Alternadores
+- Temporizadores
+}
+* Estatísticas {
+- Dados Mais Atuais
+}
+* Gerenciar {
+- Gerenciar Controles
+- Gerenciar Estatísticas
+- Gerenciar Servidores Locais
+}
+
+Comprador:
+* Início {
+- Perfil
+- Ajuda
+}
+* Compras {
+- Minhas Compras
+- Registrar Nova Compra
+}
+* Pedidos {
+- Meus Pedidos
+- Registrar Novo Pedido
+}
+
+Administrador
+* Início {
+- Perfil
+- Conectar à Servidor Local
+- Ajuda
+}
+* Controles {
+- Painel de Controles
+- Alternadores
+- Temporizadores
+- Histórico de Ordens
+}
+* Estatísticas {
+- Análises
+- Dados Mais Atuais
+}
+* Pedidos {
+- Pedidos Aprovados
+- Pedidos Pendentes
+}
+* Vendas {
+- Minhas Vendas
+- Registrar Nova Venda
+}
+* Gerenciar {
+- Gerenciar Compradores
+- Gerenciar Controles
+- Gerenciar Estatísticas
+- Gerenciar Produtos
+- Gerenciar Servidores Locais
+- Gerenciar Usuários
+}

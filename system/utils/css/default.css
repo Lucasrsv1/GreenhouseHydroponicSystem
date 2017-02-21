@@ -1,0 +1,249 @@
+/* Greenhouse */
+
+.local_server_on {
+    margin-right: 5px;
+	color: rgb(100, 200, 100);
+}
+
+.local_server_off {
+    margin-right: 5px;
+	color: rgb(230, 100, 100);
+}
+
+.no_search {
+	margin-bottom: 20px;
+}
+
+.popup, .modal-dialog {
+	display: none;
+	position: fixed;
+	width: 50%;
+    margin-left: 25%;
+    top: 0;
+    left: 0;
+}
+
+.popup {
+	z-index: 5000 !important;
+}
+
+.modal-dialog {
+	display: block !important;
+}
+
+.nav-tabs li a {
+	font-size: 16px;
+	font-weight: 400;
+	color: #73879C !important;
+}
+
+.hide {
+	display: none !important;
+}
+
+.modal-body, .modal-body p {
+	font-size: 14px;
+	margin: 10px 0;
+}
+
+.modal-footer button {
+	margin: 0;
+}
+
+.modal-footer input[type = "button"] {
+	margin-bottom: 0 !important;
+}
+
+div.dataTables_wrapper div.dataTables_length label, div.dataTables_wrapper div.dataTables_filter label {
+	font-weight: normal;
+	text-align: left;
+    white-space: nowrap;
+}
+
+div.dataTables_length label select {
+	height: 30px;
+	line-height: 30px;
+	padding: 5px 10px;
+	font-size: 12px;
+}
+
+div.dataTables_filter label input {
+	margin-left: 0.5em;
+	display: inline-block;
+	width: auto;
+	height: 30px;
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	border: 1px solid #ccc;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #33b77a;
+	border-color: #2ea46d;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+	color: #fff;
+	background-color: #289060;
+	border-color: #12402b;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active {
+	color: #fff;
+	background-color: #289060;
+	border-color: #20744d;
+}
+
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus {
+	color: #fff;
+	background-color: #20744d;
+	border-color: #12402b;
+}
+
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus {
+	background-color: #33b77a;
+	border-color: #2ea46d;
+}
+
+.btn-excluir, .btn-alterar {
+	margin: 0;
+	padding: 7px 10px 3px 10px;
+}
+
+.em_uso_toggle, .estado_toggle {
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 22px;
+	color: #eee;
+	font-size: 16px;
+}
+
+.em_uso_toggle:hover, .estado_toggle {
+	cursor: pointer;
+}
+
+.usando {
+	background-color: #65b25c;
+	border-color: #388030;
+}
+
+.usando:hover {
+	background-color: #55a24c;
+	border-color: #287020;
+}
+
+.usando:active {
+	background-color: #45923c;
+	border-color: #186010;
+}
+
+.nao_usando {
+	background-color: #e06456;
+	border-color: #bf655b;
+}
+
+.nao_usando:hover {
+	background-color: #d05446;
+	border-color: #af554b;
+}
+
+.nao_usando:active {
+	background-color: #c04436;
+	border-color: #9f453b;
+}
+
+.noselect, .em_uso_toggle {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.uso-td {
+	text-transform: uppercase;
+	text-align: center;
+	color: #eee !important;
+}
+
+.usando-td {
+	background-color: #65b25c;
+	/*border-color: #388030 !important;*/
+}
+
+.nao_usando-td {
+	background-color: #e06456;
+	/*border-color: #bf655b !important;*/
+}
+
+.table tbody tr td {
+	vertical-align: middle;
+}
+
+.action {
+	width: 80px !important;
+	text-align: center;
+}
+
+select {
+	width: 100%;
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.MAC {
+	text-transform: uppercase;
+}
+
+/* do not group these rules */
+*::-webkit-input-placeholder {
+	text-transform: none !important;
+}
+
+*:-moz-placeholder {
+	text-transform: none !important;
+}
+
+*::-moz-placeholder {
+	text-transform: none !important;
+}
+
+*:-ms-input-placeholder {
+	text-transform: none !important;
+}
+
+.bold-label {
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 34px;
+}
+
+.normal-label {
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 34px;
+}
