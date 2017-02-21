@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 	
 	function linkUrl ($link) {
 		$result = base_url($link);

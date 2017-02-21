@@ -1,4 +1,4 @@
-﻿<div>
+<div>
 	<div class="page-title">
 		<div class="title_left no_search">
 			<h3>Gerenciar Controles</h3>

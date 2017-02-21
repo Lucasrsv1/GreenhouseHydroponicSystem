@@ -1,4 +1,4 @@
-﻿<div class="">
+<div class="">
 	<div class="page-title">
 		<div class="title_left no_search">
 			<h3>Painel de Controles</h3>
