@@ -247,3 +247,86 @@ select {
 	font-weight: normal;
 	line-height: 34px;
 }
+
+.date-border {
+	border-top: 2px solid #E6E9ED;	
+}
+
+.date {
+	border-bottom: 0;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+.date-border h2 {
+	margin-top: 10px !important;
+	margin-bottom: 0;
+}
+
+.controller {
+	font-size: 168px;
+	text-align: center;
+	line-height: 200px;
+	vertical-align: middle;
+}
+
+.on-bgr {
+	background-color: rgb(127, 214, 134);
+}
+
+.on {
+	color: rgb(127, 214, 134);
+}
+
+.on:hover {
+	cursor: pointer;
+	color: rgb(142, 229, 149);
+}
+
+.on:active {
+	color: rgb(157, 244, 164);
+}
+
+.off-bgr {
+	background-color: rgb(235, 110, 120);
+}
+
+.off {
+	color: rgb(235, 110, 120);
+}
+
+.off:hover {
+	cursor: pointer;
+	color: rgb(245, 130, 140);
+}
+
+.off:active {
+	color: rgb(255, 150, 160);
+}
+
+.ordem-bgr {
+	background-color: rgb(127, 134, 214);
+}
+
+.ordem {
+	color: rgb(127, 134, 214);
+}
+
+.ordem:hover {
+	cursor: pointer;
+	color: rgb(142, 149, 229);
+}
+
+.ordem:active {
+	color: rgb(157, 164, 244);
+}
+
+.state {
+	font-weight: 400;
+    line-height: 1;
+    color: #666 !important;
+	font-size: 65%;
+    margin-left: 8px;
+	padding: 2px;
+}

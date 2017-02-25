@@ -44,37 +44,13 @@
 						</div>
 					</div>
 					<br />
-					<div class="col-lg-12">
-						<!-- Content -->
-						<div class="col-md-4 col-sm-6 col-xs-12">
-							<div class="x_panel fixed_height_320">
-								<div class="x_title x_title_original">
-									<h2>Controle <small>Estado</small></h2>
-									<ul class="nav navbar-right panel_toolbox">
-										<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a></li>
-										<li><a class="close-link"><i class="fa fa-close"></i></a></li>
-									</ul>
-									<div class="clearfix"></div>
-								</div>
-								<div class="x_content" style="display: block;">
-									<p> Lorem ipsun dolor seanet... </p>
-									<p> Lorem ipsun dolor seanet... </p>
-									<p> Lorem ipsun dolor seanet... </p>
-									<p> Lorem ipsun dolor seanet... </p>
-								</div>
-							</div>
-						</div>
+					<div class="col-lg-12" id="controllers">
+						<!-- Generated Content -->
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	
-	<script src="<?php echo base_url("system/utils/js/painel.js");
-
-
-
-
-
-?>"></script>
+	<script src="<?php echo base_url("system/utils/js/painel.js");?>"></script>
 </div>
