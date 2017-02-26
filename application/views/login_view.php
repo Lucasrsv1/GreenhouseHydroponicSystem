@@ -18,7 +18,7 @@
                         </div>
                         <input type="submit" style="display: none !important" />
                         <div>
-                            <a class="btn btn-default submit" style="color: rgb(90, 145, 115);" onClick="document.forms[0].submit();">Entrar</a>
+                            <a class="btn btn-default submit" onClick="document.forms[0].submit();">Entrar</a>
                             <a class="reset_pass" href="#">Esqueceu sua senha?</a>
                         </div>
                         
@@ -31,7 +31,7 @@
                             
                             <div>
                                 <h1>Greenhouse Hydroponic System</h1>
-                                <p><i class="fa fa-copyright"></i> 2017 Todos os Direitos Reservados.<br/>Greenhouse Hydroponic System foi desenvolvido visando a automação de estufas.</p>
+                                <p><i class="fa fa-copyright"></i> 2017 Todos os Direitos Reservados.<br/>Greenhouse Hydroponic System foi desenvolvido com a capacidade de prover a automação completa de uma estufa hidropônica, desde a sua operação até a venda final ao consumidor.</p>
                             </div>
                         </div>
                     </form>
