@@ -173,10 +173,10 @@ $(document).ready(function () {
 	});
 
 	if ($('#connection_status').children('i').hasClass('local_server_off')) {
-		$("#msg_erro").html("Aparentemente você não está conectado a um servidor local. Páginas de estatísticas e controles requerem essa conexão.");
+		$("#msg_erro").html("Você não está conectado a um servidor local. Páginas de estatísticas e controles requerem essa conexão.");
 		$('#erro').fadeIn('slow').addClass('open-message');
 		$('html, body').animate({ scrollTop: 0 }, 'slow');
-	}
-
-	GetReles();
+	} else {
+		GetReles();
+	}	
 });
