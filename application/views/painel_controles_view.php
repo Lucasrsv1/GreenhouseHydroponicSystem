@@ -44,7 +44,7 @@
 						</div>
 					</div>
 					<br />
-					<div class="col-lg-12" id="controllers">
+					<div class="col-xs-12" id="controllers">
 						<!-- Generated Content -->
 					</div>
 				</div>
