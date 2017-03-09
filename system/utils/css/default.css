@@ -240,12 +240,17 @@ select {
 	font-size: 17px;
 	font-weight: 700;
 	line-height: 34px;
+	width: 170px;
+	padding-right: 10px;
+    padding-left: 10px;
+	display: inline-block;
 }
 
 .normal-label {
 	font-size: 17px;
 	font-weight: normal;
 	line-height: 34px;
+	display: inline-block;
 }
 
 .date-border {

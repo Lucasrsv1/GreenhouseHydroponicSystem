@@ -46,8 +46,8 @@
 							</div>
 						</div>
 						<form method="post" onSubmit="$('#conectar').trigger('click'); return false;">
-							<div class="col-xs-2 bold-label"> Servidor: </div>
-							<div class="col-xs-8">
+							<div class="bold-label"> Servidor: </div>
+							<div style="display: inline-block; width: 300px;">
 								<select class="form-control" id="servidor" name="servidor" title="Descrição do servidor">
 									<option value="-1" selected>Selecione um servidor para se conectar</option>
 								</select>
@@ -56,16 +56,16 @@
 							<br />
 							<br />
 							<br />
-							<div class="col-xs-2 bold-label">Endereço MAC:</div>
-							<div class="col-xs-8 normal-label" id="MAC"></div>
+							<div class="bold-label">Endereço MAC:</div>
+							<div class="normal-label" id="MAC"></div>
 							<br />
 							<br />
-							<div class="col-xs-2 bold-label">Conexão (IP/DNS):</div>
-							<div class="col-xs-8 normal-label" id="servidor_conexao"></div>
+							<div class="bold-label">Conexão (IP/DNS):</div>
+							<div class="normal-label" id="servidor_conexao"></div>
 							<br />
 							<br />
-							<div class="col-xs-2 bold-label">Nome de Usuário:</div>
-							<div class="col-xs-8 normal-label" id="servidor_usuario"></div>
+							<div class="bold-label">Nome de Usuário:</div>
+							<div class="normal-label" id="servidor_usuario"></div>
 							<br />
 							<br />
 							<br />
