@@ -39,7 +39,7 @@
 			if (!self::$local_server)
 				return 'errorS';
 			
-			self::$local_server->where(array('id' => $id, 'empresas_id' => $empresas_id, 'reles_id' => $reles_id, 'cumprida' => false));
+			self::$local_server->where(array('id' => $id, 'empresas_id' => $empresas_id, 'reles_id' => $reles_id, 'cumprida' => false, 'processada' => false));
 			self::$local_server->delete(self::TABELA);
 			return self::$local_server->affected_rows() > 0;
 		}

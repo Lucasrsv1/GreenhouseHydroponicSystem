@@ -143,10 +143,13 @@ function AddTriggerEvent (id, estado, id_ordem) {
 						error = "Sessão expirada! Por favor, faça login novamente.";
 						break;
 					case 'errorT':
-						error = "Você não tem permissão para enviar ordens.";
+						error = "Você não tem permissão para " + ((estado !== "ordem") ? "enviar" : "cancelar") + " ordens.";
 						break;
 					default:
-						error = "Problema de comunicação com o servidor local.";
+						if (estado === "ordem")
+							error = "Ela pode já ter sido enviada e executada ou pode ter ocorrido um problema de comunicação com o servidor local.";
+						else
+							error += "Problema de comunicação com o servidor local.";
 						break;
 				}
 				$("#msg_erro").html("Falha ao " + ((estado !== "ordem") ? "enviar" : "cancelar") + " a ordem!<br />" + error);
