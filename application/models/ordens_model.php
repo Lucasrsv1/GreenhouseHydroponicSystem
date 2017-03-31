@@ -19,6 +19,14 @@
 			$select = self::$local_server->query("SELECT R.id AS 'reles_id', R.rele_pin, R.rele_nome, R.estado, OP.id AS 'ordens_id', OP.ordem, C.usuario, CONCAT(C.primeiro_nome, ' ', C.sobrenome) AS 'nome', IF(OP.id > 0, MIN(DATE_FORMAT(IF (OP.cumprida = FALSE, OP.envio, R.ultima_atualizacao), '%d/%m/%Y %H:%i:%s')), MAX(DATE_FORMAT(IF (OP.cumprida = FALSE, OP.envio, R.ultima_atualizacao), '%d/%m/%Y %H:%i:%s'))) AS 'ultima_atualizacao_formatada' FROM reles R LEFT JOIN ordens_pendentes OP ON OP.reles_id = R.id LEFT JOIN contas C ON OP.contas_id = C.id WHERE R.empresas_id = $empresas_id AND R.em_uso GROUP BY 1 ORDER BY R.rele_nome ASC, 9 DESC");
 			return $select->result();
 		}
+
+		function SelecionarHistorico ($empresas_id) {
+			if (!self::$local_server)
+				return array();
+			
+			$select = self::$local_server->query("SELECT C.usuario, CONCAT(C.primeiro_nome, ' ', C.sobrenome) AS 'nome_completo', R.rele_nome, O.ordem, O.cumprida, DATE_FORMAT(O.envio, '%d/%m/%Y %H:%i:%s') AS 'envio', DATE_FORMAT(O.executada, '%d/%m/%Y %H:%i:%s') AS 'executada' FROM ordens O INNER JOIN contas C ON C.id = O.contas_id INNER JOIN reles R ON R.id = O.reles_id WHERE O.empresas_id = $empresas_id ORDER BY O.envio DESC, O.cumprida ASC, O.executada DESC, R.rele_nome ASC");
+			return $select->result();
+		}
 		
 		function Enviar ($empresas_id, $contas_id, $reles_id, $ordem) {
 			if (!self::$local_server)

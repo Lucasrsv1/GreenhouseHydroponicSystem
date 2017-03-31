@@ -18,7 +18,7 @@
 			$data['nav'] = $this->session->userdata('nav');
 			
 			$this->template->write_view('menu', $session_data['tipo'].'/menu', $data);
-			$this->template->write_view('content', 'painel_controles_view');
+			$this->template->write_view('content', 'controles/painel_view');
 			$this->template->render();
 		}
 	

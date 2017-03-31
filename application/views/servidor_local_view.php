@@ -54,33 +54,22 @@
 							</div>
 							<br />
 							<br />
-							<br />
-							<br />
 							<div class="bold-label">Endereço MAC:</div>
 							<div class="normal-label" id="MAC"></div>
 							<br />
-							<br />
 							<div class="bold-label">Conexão (IP/DNS):</div>
 							<div class="normal-label" id="servidor_conexao"></div>
-							<br />
 							<br />
 							<div class="bold-label">Nome de Usuário:</div>
 							<div class="normal-label" id="servidor_usuario"></div>
 							<br />
 							<br />
-							<br />
-							<br />
-							<br />
-							<div class="col-xs-8">
-								<div class="col-xs-4">
-									<input type="submit" class="hide" />
-									<button type="button" class="btn btn-primary " id="conectar" style="width: 128px;">
-										<span class="fa fa-spinner" aria-hidden="true"></span> <span id="status">Conectar</span>
-									</button>   
-								</div>
+							<div class="col-xs-4">
+								<input type="submit" class="hide" />
+								<button type="button" class="btn btn-primary " id="conectar" style="width: 128px;">
+									<span class="fa fa-spinner" aria-hidden="true"></span> <span id="status">Conectar</span>
+								</button>   
 							</div>
-							<br />
-							<br />
 						</form>
 					</div>
 				</div>

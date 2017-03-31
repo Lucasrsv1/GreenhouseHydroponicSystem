@@ -28,7 +28,7 @@
 					<li <?php echo linkUrl("controles/painel"); ?>Painel de Controles</a></li>
 					<li <?php echo linkUrl("controles/alternadores"); ?>Alternadores</a></li>
 					<li <?php echo linkUrl("controles/temporizadores"); ?>Temporizadores</a></li>
-					<li <?php echo linkUrl("controles/historico_ordens"); ?>Histórico de Ordens</a></li>
+					<li <?php echo linkUrl("controles/historico"); ?>Histórico de Ordens</a></li>
 				</ul>
 			</li>
 			<li><a><i class="fa fa-bar-chart-o"></i> Estatísticas <span class="fa fa-chevron-down"></span></a>
